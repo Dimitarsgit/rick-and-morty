@@ -1,0 +1,40 @@
+.page-item.active .page-link {
+  z-index: 3;
+  color: #fff;
+  background-color: #00a400;
+  border-color: black;
+}
+
+.page-link {
+  margin: 0 10px 0 0;
+  color: black;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+}
+
+.display-3 {
+  font-size: 4.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.spinner-border {
+  display: inline-block;
+  width: 10rem;
+  height: 10rem;
+  vertical-align: text-bottom;
+  border: 0.25em solid currentColor;
+  border-right-color: transparent;
+  border-radius: 50%;
+  animation: 0.75s linear infinite spinner-border;
+}
+.not-found-holder {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:#E4E2E7;
+}
+.not-fount-holder img {
+}
