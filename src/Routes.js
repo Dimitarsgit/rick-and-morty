@@ -16,7 +16,7 @@ const Routes = () => (
     <PrivateRoute exact path="/episode/:id" component={EpisodePreviewPage} />
     <PrivateRoute exact path="/location/:id" component={LocationPreviewPage} />
     <PrivateRoute exact path="/character" component={CharacterListPage} />
-    <Route exact path="*" component={NotFoundPage} />
+    <PrivateRoute exact path="*" component={NotFoundPage} />
   </Switch>
 );
 
