@@ -2,7 +2,7 @@ import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = { users: [], user: null, message: "" };
 
-const counterSlice = createSlice({
+const authSlice = createSlice({
   name: "auth",
   initialState,
   reducers: {
@@ -38,5 +38,5 @@ const counterSlice = createSlice({
   },
 });
 
-export const { signUp, signIn, setMessage, logout } = counterSlice.actions;
-export default counterSlice.reducer;
+export const { signUp, signIn, setMessage, logout } = authSlice.actions;
+export default authSlice.reducer;
